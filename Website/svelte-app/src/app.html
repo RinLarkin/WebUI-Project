@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<!-- sets document language to English -->
+	<head>
+		<meta charset="utf-8" />
+		<!-- adds support for various languages -->
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- ensures the webpage is responsive on all sizes of screens and devices-->
+
+		<!-- SEO Meta Tags-->
+		<meta name="author" content="Rin Larkin"/>
+		<meta name="decription" content="Modern SvelteKit Web App for UI Design"/>
+		<meta name="keywords" content="SvelteKit, UI Design, Frontend Development, Web App"/>
+
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<!-- sets website favicon dynamically using Sveltekit's assets system -->
+		<link rel="stylesheet" href="%sveltekit.assets%/styles/global.css"/>
+		<!-- links to a global css file for consistent styling across all pages -->
+
+		<title>Project</title>
+		<!-- default website title, which can be overridden in pages -->
+
+		%sveltekit.head%
+		<!-- SvelteKit Injected Head Content, which allows pages to override title -->
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>
