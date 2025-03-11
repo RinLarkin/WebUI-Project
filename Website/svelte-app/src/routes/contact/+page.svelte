@@ -1,5 +1,6 @@
 <script>
-    import { onMount } from 'svelte';
+    import { COLOR } from '$env/static/private';
+import { onMount } from 'svelte';
 
     onMount(() => 
     {
@@ -8,7 +9,7 @@
 </script>
 
 <h1>Contact Us</h1>
-<p>Get in Touch via Email: <a href="mailto:info@example.com>infor@example.com</a></p>
+<p>Get in Touch via Email:<a href="mailto:info@example.com"> info@example.com</p>
 
 <style>
     h1 { color: #28a745; }
