@@ -33,4 +33,18 @@
         width: 50px;
         margin-right: 0.625rem;
     }
+
+    @media (max-width: 768px)
+    {
+        header
+        {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .logo
+        {
+            justify-content: center;
+        }
+    }
 </style>
