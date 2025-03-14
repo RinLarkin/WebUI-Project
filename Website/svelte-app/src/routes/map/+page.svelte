@@ -1,15 +1,14 @@
-<!-- Home Page -->
 <script>
     import { onMount } from 'svelte';
 
     onMount(() => 
     {
-        console.log("Home Page Loaded");
+        console.log("Map Page Loaded");
     });
 </script>
 
-<h1>Welcome to [Amusement Park Name]</h1>
+<h1>Map of the Park</h1>
 
 <style>
-
+   
 </style>

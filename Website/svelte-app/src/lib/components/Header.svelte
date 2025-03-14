@@ -5,8 +5,8 @@
 <header>
     <!-- Logo -->
     <div class="logo">
-        <img src="/logo.png" alt="Website Logo">
-        <h1>Svelte App Project</h1>
+        <a href="/"><img src="/logo.png" alt="Website Logo"></a>
+        <h1>Amusement Park Website</h1>
     </div>
     <Navigation />
 </header>
@@ -17,7 +17,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background-color: var(--primary-color);
+        background-color: #c83e4d;
         color: white;
         padding: 1rem; 
     }

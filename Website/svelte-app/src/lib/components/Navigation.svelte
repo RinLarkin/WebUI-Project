@@ -7,16 +7,16 @@
     </button>
 
     <ul class:open={isOpen}>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/contact">Contact</a></li>
+        <li><a href="/tickets">Tickets</a></li>
+        <li><a href="/events">Events</a></li>
+        <li><a href="/map">Map</a></li>
+        <li><a href="/getting_there">Getting There</a></li>
     </ul>
 </nav>
 
 <style>
     nav
     {
-        background-color: #007bff;
         padding: 1rem;
         text-align: center;
     }
@@ -36,6 +36,7 @@
     nav ul li a 
     { 
         color: white; 
+        font-size: 25px;
         font-weight: bold; 
         text-decoration: none; 
     }
@@ -68,7 +69,6 @@
             top: 90px;
             left: 0;
             width: 100%;
-            background: #007bff;
             text-align: left;
             padding: 1rem 0;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
