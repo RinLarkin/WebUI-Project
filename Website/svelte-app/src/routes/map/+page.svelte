@@ -8,7 +8,8 @@
 </script>
 
 <h1>Map of the Park</h1>
-
+<br>
+<img src="/map.jpg" alt="Park Map">
 <style>
    
 </style>

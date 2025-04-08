@@ -8,6 +8,7 @@
 </script>
 
 <h1>Purchase Tickets Here</h1>
+
 <div>
     <img src="/family.jpg" alt="Family">
     <h2>Family Ticket</h2>

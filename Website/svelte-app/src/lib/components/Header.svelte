@@ -6,7 +6,7 @@
     <!-- Logo -->
     <div class="logo">
         <a href="/"><img src="/logo.png" alt="Website Logo"></a>
-        <h1>Amusement Park Website</h1>
+        <a href="/"><h1>All Amusements</h1></a>
     </div>
     <Navigation />
 </header>
@@ -20,6 +20,12 @@
         background-color: #c83e4d;
         color: white;
         padding: 1rem; 
+    }
+
+    h1, a
+    {
+        color: white;
+        text-decoration: none;
     }
 
     .logo
