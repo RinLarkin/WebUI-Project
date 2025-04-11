@@ -6,8 +6,9 @@
         console.log("Tickets Page Loaded");
     });
 </script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
-<h1>Purchase Tickets Here</h1>
+<h1>Available Tickets</h1>
 
 <div>
     <img src="/family.jpg" alt="Family">
@@ -15,7 +16,7 @@
     <h3>€50</h3>
     <p>For Families of 3+ Members</p>
     <br>
-    <a href="/#" class="button">Buy Now</a>
+    <a href="/purchase" class="button">Buy Now</a>
 </div>
   
 <div>
@@ -24,7 +25,7 @@
     <h3>€15</h3>
     <p>Persons of 18+</p>
     <br>
-    <a href="/#" class="button">Buy Now</a>
+    <a href="/purchase" class="button">Buy Now</a>
 </div>
 
 <div>
@@ -33,7 +34,7 @@
     <h3>€5 - €10</h3>
     <p>Persons Under 18</p>
     <br>
-    <a href="/#" class="button">Buy Now</a>
+    <a href="/purchase" class="button">Buy Now</a>
 </div>
 
 <div>
@@ -42,16 +43,16 @@
     <h3>€12</h3>
     <p>Student ID Required</p>
     <br>
-    <a href="/#" class="button">Buy Now</a>
+    <a href="/purchase" class="button">Buy Now</a>
 </div>
 
 <div>
     <img src="/group.jpg" alt="Group of People">
     <h2>Group Ticket</h2>
     <h3>€25+</h3>
-    <p>Groups of 3+ Persons</p>
+    <p>Groups of 10+ Persons</p>
     <br>
-    <a href="/#" class="button">Buy Now</a>
+    <a href="/purchase" class="button">Buy Now</a>
 </div>
 
 <div>
@@ -60,13 +61,13 @@
     <h3>€100</h3>
     <p>Students + Teacher</p>
     <br>
-    <a href="/#" class="button">Buy Now</a>
+    <a href="/purchase" class="button">Buy Now</a>
 </div>
 
 <style>
     div
     {
-        background-color: #5bc3eb;
+        background-color:sandybrown;
         width: 500px;
         float: left;
         margin: 15px;
@@ -81,7 +82,7 @@
     .button
     {
         background-color: white;
-        color: #5bc3eb;
+        color: sandybrown;
         font-size: 16px;
         text-align: center;
         padding: 5px;

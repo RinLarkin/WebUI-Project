@@ -7,6 +7,7 @@
         console.log("Home Page Loaded");
     });
 </script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
 <h1>Welcome Visitors!</h1>
 <br>
@@ -23,7 +24,7 @@
     {
         width: 50%;
         float: left;
-        border: 10px ridge #c83e4d;
+        border: 10px ridge sandybrown;
     }
 
     #image
@@ -33,7 +34,7 @@
 
     #welcome
     {
-        background: #5bc3eb;
+        background: sandybrown;
         width: 50%;
         float: right;
         padding: 15px;
