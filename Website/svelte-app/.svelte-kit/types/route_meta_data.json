@@ -1,0 +1,24 @@
+{
+	"/": [
+		"src/routes/+layout.js",
+		"src/routes/+layout.js"
+	],
+	"/congrats": [
+		"src/routes/+layout.js"
+	],
+	"/events": [
+		"src/routes/+layout.js"
+	],
+	"/getting_there": [
+		"src/routes/+layout.js"
+	],
+	"/map": [
+		"src/routes/+layout.js"
+	],
+	"/purchase": [
+		"src/routes/+layout.js"
+	],
+	"/tickets": [
+		"src/routes/+layout.js"
+	]
+}
